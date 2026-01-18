@@ -1,0 +1,10 @@
+2024-01-12 17:32:45 Failed HTTP login attempt from 34.56.93.143
+2024-06-12 17:32:45 Failed login attempt from 34.56.93.143
+2024-08-12 17:32:46 Failed login attempt from 34.56.93.143
+2024-09-12 17:32:47 Failed login attempt from 34.56.93.143
+2024-10-15 02:41:12 Attack detected from 45.87.178.23
+2024-10-15 02:41:13 Attack detected from 45.87.178.23
+2024-10-17 07:12:34 Failed SIP register attempt from 74.32.59.197
+2024-10-17 07:12:39 Failed SIP register attempt from 74.32.59.197
+2024-10-17 07:12:43 Failed SIP register attempt from 74.32.59.197
+2024-10-21 14:15:31 The event logging service encountered an error while processing an incoming event published from Microsoft-Windows-Security-Auditing
