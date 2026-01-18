@@ -33,3 +33,19 @@ Compile the program using GCC:
 
 ## bash
 gcc parser.c -o log_parser
+
+## Usage
+Run the parser with an input log file and an output file:
+
+## bash
+./log_parser sample_log_file.txt suspicious_output.txt
+
+Example
+
+Input log line:
+
+2024-06-12 17:32:45 Failed login attempt from 34.56.93.143
+
+Output:
+
+2024-06-12 17:32:45 Failed login attempt from 34.56.93.143
