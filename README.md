@@ -1,26 +1,35 @@
 # Log Intrusion Detector (C)
 
-A C-based log file parser that scans system logs for suspicious activity such as failed login attempts, detected attacks, and error events, and writes them to a separate output file.
+## Overview
+This project is a simple log file parser written in C that detects and extracts
+potentially suspicious activity from system log files. It scans logs for
+specific keywords such as failed login attempts and errors, then writes the
+matching entries to a separate output file.
+
+This project demonstrates file handling, string processing, and basic intrusion
+detection concepts using C.
+
+---
 
 ## Features
-- Detects failed login attempts
-- Identifies attack-related log entries
-- Captures error events
-- Processes large log files efficiently using file I/O
+- Reads log files line by line
+- Detects suspicious entries containing:
+  - `Failed login`
+  - `error`
+- Writes matched lines to an output file
+- Handles file input/output errors safely
 
-## Example Log Entries Detected
+---
 
-2024-06-12 17:32:45 Failed login attempt from 34.56.93.143
-2024-10-15 02:41:12 Attack detected from 45.87.178.23
-2024-10-21 14:15:31 error while processing event
+## Files
+- `parser.c` — Core log parsing and filtering logic
+- `sample_log_file.txt` — Example log file for testing
+- `README.md` — Project documentation
 
+---
 
-## Usage
+## Compilation
+Compile the program using GCC:
 
-Compile:
-gcc log_parser.c -o log_parser
-
-./log_parser input.log suspicious.log
-
-Output
-The program writes only suspicious log entries to the output file for further analysis.
+## bash
+gcc parser.c -o log_parser
