@@ -1,5 +1,4 @@
 # Log Intrusion Detector (C)
-
 ## Overview
 This project is a simple log file parser written in C that detects and extracts
 potentially suspicious activity from system log files. It scans logs for
